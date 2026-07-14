@@ -1,0 +1,32 @@
+{
+    "model_name": "XGBoost Multiclass Diabetes Prediction",
+    "classes": {
+        "0": "No Diabetes",
+        "1": "Prediabetes",
+        "2": "Diabetes"
+    },
+    "feature_names": [
+        "HighBP",
+        "HighChol",
+        "CholCheck",
+        "BMI",
+        "Smoker",
+        "Stroke",
+        "HeartDisease",
+        "PhysActivity",
+        "Fruits",
+        "Veggies",
+        "HvyAlcoholConsump",
+        "AnyHealthcare",
+        "NoDocbcCost",
+        "GenHlth",
+        "MentHlth",
+        "PhysHlth",
+        "DiffWalk",
+        "Sex",
+        "Age",
+        "Education",
+        "Income"
+    ],
+    "number_of_features": 21
+}

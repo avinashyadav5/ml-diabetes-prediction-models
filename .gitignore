@@ -1,0 +1,59 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large raw datasets
+*.csv
+*.zip
+
+# Kaggle-specific temporary files
+kaggle.json
+
+# Model artifacts not intended for Git
+*.pkl
+*.pickle
+*.joblib
+
+# Keep final deployment model files
+!xgboost_diabetes_model.json
+!model_metadata.json
